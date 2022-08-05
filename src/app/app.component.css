@@ -1,0 +1,46 @@
+.heading {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 80px;
+    position: absolute;
+    left: 38%;
+}
+
+.notebook-paper {
+    width: 80%;
+    height: 1109px;
+    background: linear-gradient(to bottom, white 29px, #00b0d7 1px);
+    margin: 50px auto;
+    background-size: 100% 30px;
+    position: relative;
+    padding-top: 150px;
+    padding-left: 160px;
+    padding-right: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, .2), 0px 0px 6px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, .2), 0px 0px 6px rgba(0, 0, 0, .2);
+    -ms-box-shadow: 3px 3px 3px rgba(0, 0, 0, .2), 0px 0px 6px rgba(0, 0, 0, .2);
+    -o-box-shadow: 3px 3px 3px rgba(0, 0, 0, .2), 0px 0px 6px rgba(0, 0, 0, .2);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .2), 0px 0px 6px rgba(0, 0, 0, .2);
+}
+
+.notebook-paper:before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 140px;
+    height: 100%;
+    width: 1px;
+    background: #db4034;
+}
+
+.notebook-paper .white {
+    height: 150px;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
